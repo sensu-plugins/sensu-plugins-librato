@@ -1,7 +1,1 @@
-#
-# Set gem version
-#
-module SensuPluginsLibrato
-  # Gem version
-  VERSION = '0.0.1.alpha.1'
-end
+require 'sensu-plugins-librato/version'
