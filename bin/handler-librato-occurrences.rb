@@ -15,7 +15,7 @@ class LibratoMetrics < Sensu::Handler
   def handle
     hostname = @event['client']['name'].split('.').first
     # #YELLOW
-    check_name = @event['check']['name'].gsub(%r{[ \.]}, '_') # rubocop:disable RegexpLiteral
+    check_name = @event['check']['name'].gsub(%r{[ \.]}, '_')
     metric = "sensu.events.#{hostname}.#{check_name}.occurrences"
     value = @event['action'] == 'create' ? @event['occurrences'] : 0
 
