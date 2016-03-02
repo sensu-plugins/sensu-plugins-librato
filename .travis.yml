@@ -1,19 +1,34 @@
 language: ruby
 cache:
-  - bundler
+- bundler
 install:
-  - bundle install
+- bundle install
 rvm:
-  - 1.9.3
-  - 2.0
-  - 2.1
-  - 2.2
+- 1.9.3
+- 2.0
+- 2.1
+- 2.2
 notifications:
   email:
     recipients:
-      - sensu-plugin@sensu-plugins.io
+    - sensu-plugin@sensu-plugins.io
     on_success: change
     on_failure: always
-
 script:
-  - 'bundle exec rake default'
+- bundle exec rake default
+- gem build sensu-plugins-librato.gemspec
+- gem install sensu-plugins-librato-*.gem
+
+deploy:
+  provider: rubygems
+  api_key:
+    secure: H+LX9F/h8ktLLwlsJDJzFdjXO9W00hzDroIXrva88joN1iLsc3QxX2b0wCKGQlO4Y3tS35QKawORai90QJHE0qzl/eOqhXtxJ34g0FISpHnCHs1I94wYiZ1QU3CDM4WpFyPNPPhkSrdv1rSfGyriUu6bjFf1WavdtQY8VpXpjBo=
+  gem: sensu-plugins-librato
+  on:
+    tags: true
+    all_branches: true
+    rvm: 1.9.3
+    rvm: 2.0
+    rvm: 2.1
+    rvm: 2.2
+    repo: sensu-plugins/sensu-plugins-librato

@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-librato.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-librato)
-[ ![Codeship Status for sensu-plugins/sensu-plugins-librato](https://codeship.com/projects/872dc310-edb4-0132-dfeb-1efd3f886df2/status?branch=master)](https://codeship.com/projects/84073)
 
 ## Functionality
 
