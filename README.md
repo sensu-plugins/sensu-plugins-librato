@@ -9,10 +9,8 @@
 ## Functionality
 
 ## Files
- *
- *
- *
- *
+ * bin/handler-librato-occurrences.rb
+ * bin/handler-metrics-librato.rb
 
 ## Usage
 
