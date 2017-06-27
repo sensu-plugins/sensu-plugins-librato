@@ -1,6 +1,6 @@
 ## Sensu-Plugins-librato
 
-[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-librato.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-librato)
+[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-librato.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-librato)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-librato.svg)](http://badge.fury.io/rb/sensu-plugins-librato)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-librato)
